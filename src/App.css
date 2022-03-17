@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.canvas {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-color: #fce8ea;
+  padding-top: 100px;
+  orientation: horizontal;
+}
