@@ -1,3 +1,19 @@
+.SideMenuContainer {
+    margin-left: 300px;
+    margin-right: 50px;
+}
 .MenuList {
-    
+    list-style-type: none;
+    text-align: end;
+}
+
+li{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.Avatar {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
 }
