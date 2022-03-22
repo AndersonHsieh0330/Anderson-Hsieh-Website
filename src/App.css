@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: #fce8ea;
+  display: flex;
+  justify-content: center;
+  flex-direction: horizontal;
 }
 
 .App-logo {
@@ -38,8 +43,7 @@
 }
 
 .Canvas {
-  height: 800px;
-  padding-top: 100px;
+  height: 100vh;
   background-color: #fce8ea;
   display: flex;
   justify-content: center;
