@@ -1,3 +1,5 @@
 .ContentContainer {
-    margin-right: 250px;
+    padding-right: 500px;
+     /* this gives horizontal bias */
+     
   }
