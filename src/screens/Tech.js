@@ -1,4 +1,3 @@
-import './General.css';
 
 function Tech(){
     return (
