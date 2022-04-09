@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width={32}viewBox="0 -0.5 16 16" shape-rendering="crispEdges">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -0.5 16 16" shape-rendering="crispEdges">
 <metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</metadata>
 <path stroke="#4fb7f7" d="M7 1h2M6 2h1M9 2h1M7 3h2M10 3h1M1 4h2M8 4h1M11 4h1M0 5h1M3 5h1M7 5h1M12 5h1M1 6h1M4 6h1M6 6h1M13 6h1M2 7h1M5 7h1M14 7h1M2 8h1M5 8h1M14 8h1M1 9h1M4 9h1M6 9h1M13 9h1M0 10h1M3 10h1M7 10h1M12 10h1M1 11h2M8 11h1M11 11h1M7 12h1M10 12h1M6 13h1M9 13h1M7 14h2" />
 <path stroke="#cdecfa" d="M7 2h1M9 4h1M1 5h1M2 6h1M7 6h1M6 7h1M3 8h1M9 10h1M8 12h1M7 13h1" />

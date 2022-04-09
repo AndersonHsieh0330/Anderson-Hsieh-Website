@@ -1,15 +1,15 @@
 
-function Contact(){
+const Fish = () => {
     return (
         <div>
             <h1>
-                Contact
+                Fish
             </h1>
             <p>
-                Contact
+                here are my fish
             </p>
         </div>
     );
 }
 
-export default Contact;
+export default Fish;

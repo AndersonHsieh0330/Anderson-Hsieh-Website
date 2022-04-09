@@ -1,24 +1,25 @@
 import './BottomMenu.css';
-import HeartLogo from '../assets/pixelart/js/heart.js';
-import FishLogo from '../assets/pixelart/js/fish.js';
-import VolleyballLogo from '../assets/pixelart/js/volleyball.js';
-import CodeLogo from '../assets/pixelart/js/code.js';
-import ScrollLogo from '../assets/pixelart/js/scroll.js';
-import PhoneLogo from '../assets/pixelart/js/phone.js';
+import React from 'react';
+import HeartLogo from "../assets/pixelart/svg/heart.svg";
+import FishLogo from "../assets/pixelart/svg/fish.svg";
+import VolleyballLogo from "../assets/pixelart/svg/volleyball.svg";
+import CodeLogo from "../assets/pixelart/svg/code.svg";
+import ScrollLogo from "../assets/pixelart/svg/scroll.svg";
+import PhoneLogo from "../assets/pixelart/svg/phone.svg";
+import { NavLink, Link } from "react-router-dom";
 
-
-function BottomMenu(){
+const BottomMenu = () => {
+    
 
     return (
 <div className='BottomMenuContainer'>
     <ul className='MenuList'>
-        <li><HeartLogo/></li>
-        <li><FishLogo/></li>
-        <li><VolleyballLogo/></li>
-        <li><CodeLogo/></li>
-        <li><ScrollLogo/></li>
-        <li><PhoneLogo/></li>
-    
+        <li><NavLink to = '/'><img className = "PixelImage" src = {HeartLogo}/></NavLink></li>
+        <li><NavLink to = '/fish'><img className = "PixelImage" src = {FishLogo}/></NavLink></li>
+        <li><NavLink to = '/volleyball'><img className = "PixelImage" src = {VolleyballLogo}/></NavLink></li>
+        <li><NavLink to = '/tech'><img className = "PixelImage" src = {CodeLogo}/></NavLink></li>
+        <li><NavLink to = '/resume'><img className = "PixelImage" src = {ScrollLogo}/></NavLink></li>
+        <li><NavLink to = '/contact'><img className = "PixelImage" src = {PhoneLogo}/></NavLink></li>
     </ul>
 </div>
     );

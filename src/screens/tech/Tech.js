@@ -1,5 +1,5 @@
 
-function Tech(){
+const Tech = () => {
     return (
         <div className='ContentContainer'>
             <h2>Tech stuff</h2>
