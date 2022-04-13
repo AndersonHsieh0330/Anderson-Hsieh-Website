@@ -13,6 +13,7 @@ export default class PhotoLinkedList {
     }
 
     addToBack(photoNode){
+        //item is inserted between the last real element and the back_sentinel
         photoNode.next = this.back_sentinel;
         photoNode.previous = this.back_sentinel.previous;
         photoNode.previous.next = photoNode;
@@ -21,6 +22,7 @@ export default class PhotoLinkedList {
     }
 
     getFront(){
+        //return the first actual 
         return this.front_sentinel.next;
     }
 

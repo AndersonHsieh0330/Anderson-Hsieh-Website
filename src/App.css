@@ -4,9 +4,15 @@
   width: 100vw;
   background-color: #fce8ea;
   display: flex;
-  justify-content:space-between;
+  justify-content:flex-end;
   flex-direction: column;
-  align-items: center;
+}
+
+#ContentContainer{
+  width: 100vw;
+  background-color: blue;
+  /* flex-grow make this div take up a height of 100vh - (32 + 5)px */
+  flex-grow: 1;
 }
 
 .App-logo {
