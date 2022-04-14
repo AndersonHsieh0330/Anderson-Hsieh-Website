@@ -1,12 +1,14 @@
-export default class PhotoNode{
-    constructor(imgPath,imgDescription){
-        //this is a string
-        this.imgPath = imgPath;
+export default class PhotoNode {
+  constructor(imgPath, imgDescriptionEng, imgDescriptionMan) {
+    //this is a string
+    this.imgPath = imgPath;
 
-        //this is a string
-        this.imgDescription = imgDescription;
+    //this is a string
+    this.imgDescriptionEng = imgDescriptionEng;
 
-        this.next = null;
-        this.previous = null;
-    }
+    //this is a string
+    this.imgDescriptionMan = imgDescriptionMan;
+    this.next = null;
+    this.previous = null;
+  }
 }

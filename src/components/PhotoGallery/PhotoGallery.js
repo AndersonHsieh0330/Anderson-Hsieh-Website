@@ -8,8 +8,16 @@ const BottomMenu = (props) => {
     <div id="PhotoGalleryContainer">
       <img className="PixelImage" src={LeftArrow} />
       <div className="ImageContainer">
-        <img className="Image" src={props.linkedlist.getFront().imgPath} />
-        <p>I'm catching shrimps</p>
+        <img
+          className="Image"
+          src={props.linkedlist.getFront().next.next.imgPath}
+        />
+        <p className="ImgDescription">
+          {props.linkedlist.getFront().next.next.imgDescriptionEng}
+        </p>
+        <p className="ImgDescription">
+          {props.linkedlist.getFront().next.next.imgDescriptionMan}
+        </p>
       </div>
       <img className="PixelImage" src={RightArrow} />
     </div>
