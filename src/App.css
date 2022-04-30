@@ -8,6 +8,15 @@
   flex-direction: column;
 }
 
+.test {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
 #ContentContainer {
   width: 100vw;
   background-color: blue;
