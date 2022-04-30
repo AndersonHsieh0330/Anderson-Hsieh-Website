@@ -1,25 +1,43 @@
 import "./PhotoGallery.css";
-import React from "react";
+import React, { useState } from "react";
 import RightArrow from "../../assets/pixelart/svg/rightarrow.svg";
 import LeftArrow from "../../assets/pixelart/svg/leftarrow.svg";
 
 const BottomMenu = (props) => {
+  var numOfImages = props.myImages.length;
+  const [imgIndex, setImgIndex] = useState(0);
+  function nextImgCircular() {
+    setImgIndex((imgIndex + 1) % numOfImages);
+  }
+  function previousImgCircular() {
+    if (imgIndex - 1 < 0) {
+      setImgIndex(numOfImages - 1);
+      return;
+    }
+    setImgIndex(imgIndex - 1);
+  }
+
   return (
     <div id="PhotoGalleryContainer">
-      <img className="PixelImage" src={LeftArrow} />
+      <img
+        className="PixelImage"
+        src={LeftArrow}
+        onClick={() => previousImgCircular()}
+      />
       <div className="ImageContainer">
-        <img
-          className="Image"
-          src={props.linkedlist.getFront().next.next.imgPath}
-        />
+        <img className="Image" src={props.myImages[imgIndex].imgPath} />
         <p className="ImgDescription">
-          {props.linkedlist.getFront().next.next.imgDescriptionEng}
+          {props.myImages[imgIndex].imgDescriptionEng}
         </p>
         <p className="ImgDescription">
-          {props.linkedlist.getFront().next.next.imgDescriptionMan}
+          {props.myImages[imgIndex].imgDescriptionMan}
         </p>
       </div>
-      <img className="PixelImage" src={RightArrow} />
+      <img
+        className="PixelImage"
+        src={RightArrow}
+        onClick={() => nextImgCircular()}
+      />
     </div>
   );
 };

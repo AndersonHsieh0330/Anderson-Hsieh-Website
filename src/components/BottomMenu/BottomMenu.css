@@ -1,10 +1,23 @@
 .BottomMenuContainer {
   /* note that <div> are block level element by default
     100% width */
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-bottom: 5px;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: flex-end; */
+
+  /* padding-bottom: 5px; */
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+
+  /* don't set right padding since it's already set in <li> */
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 ul {
@@ -22,8 +35,7 @@ ul {
 
 li {
   display: inline-block;
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 20px;
 }
 
 .PixelImage {

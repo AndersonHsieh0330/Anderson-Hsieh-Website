@@ -1,8 +1,11 @@
-.RowCenterContainer {
+.AboutMeContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  text-align: start;
   height: 100vh;
+  width: 100vw;
 }
 
 .ColumnCenterContainer {
@@ -12,15 +15,16 @@
   justify-content: center;
 }
 
-.AlignTopContainer {
+.SideBySideContainer {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: center;
+  background-color: rebeccapurple;
 }
+
 #TextContainer {
   display: block;
-  flex-direction: column;
-  align-items: flex-start;
   text-align: left;
   font-size: 2vh;
   width: 45vw;
