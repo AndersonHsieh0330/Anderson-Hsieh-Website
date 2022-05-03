@@ -1,36 +1,40 @@
 #PhotoGalleryContainer {
-  display: inline-flex;
+  /* this is used to put the arrows next to the photo */
+  display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
+
+  /* must define a height for the container so the relative position of arrows work */
+  height: 100%;
 }
 
 .ImageContainer {
   background-color: white;
-  width: 45vh;
   padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
+
+  /* gap between white frame and arrows */
+  margin-left: 15px;
+  margin-right: 15px;
   font-size: 2vh;
   box-shadow: 3px 3px 0px #595959;
 }
-.PixelImage {
+#RightArrowPixelImage {
+  /* override flex position inherited from parent */
+  position: relative;
+  top: 45%;
   margin: 0%;
-  display: block;
   height: 24px;
   width: 24px;
 }
 
-.Image {
-  /* This photo has width:height ratio of 4:3 */
-  height: 60vh;
-  width: 45vh;
-}
-
-.ImgDescription {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 5px;
-  margin-right: 5px;
-  font-size: 1.5vh;
+#LeftArrowPixelImage {
+  /* override flex position inherited from parent */
+  position: relative;
+  top: 45%;
+  margin: 0%;
+  height: 24px;
+  width: 24px;
 }

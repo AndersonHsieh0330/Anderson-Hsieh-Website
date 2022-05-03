@@ -2,6 +2,7 @@ import "./PhotoGallery.css";
 import React, { useState } from "react";
 import RightArrow from "../../assets/pixelart/svg/rightarrow.svg";
 import LeftArrow from "../../assets/pixelart/svg/leftarrow.svg";
+import { isCursorAtEnd } from "@testing-library/user-event/dist/utils";
 
 const BottomMenu = (props) => {
   var numOfImages = props.myImages.length;
@@ -20,21 +21,53 @@ const BottomMenu = (props) => {
   return (
     <div id="PhotoGalleryContainer">
       <img
-        className="PixelImage"
+        id="LeftArrowPixelImage"
         src={LeftArrow}
         onClick={() => previousImgCircular()}
       />
       <div className="ImageContainer">
-        <img className="Image" src={props.myImages[imgIndex].imgPath} />
-        <p className="ImgDescription">
+        {props.myImages[imgIndex].isVideo ? (
+          <video
+            src={props.myImages[imgIndex].imgPath}
+            style={{ height: props.height, width: props.width }}
+            controls
+          />
+        ) : (
+          <img
+            className="Image"
+            style={{
+              /* This photo has width:height ratio of 4:3 */
+              height: props.height,
+              width: props.width,
+            }}
+            src={props.myImages[imgIndex].imgPath}
+          />
+        )}
+        <p
+          className="ImgDescription"
+          style={{
+            marginTop: "5px",
+            marginBottom: "0px",
+            fontSize: "1.5vh",
+            width: props.width,
+          }}
+        >
           {props.myImages[imgIndex].imgDescriptionEng}
         </p>
-        <p className="ImgDescription">
+        <p
+          className="ImgDescription"
+          style={{
+            marginTop: "5px",
+            marginBottom: "0px",
+            fontSize: "1.5vh",
+            width: props.width,
+          }}
+        >
           {props.myImages[imgIndex].imgDescriptionMan}
         </p>
       </div>
       <img
-        className="PixelImage"
+        id="RightArrowPixelImage"
         src={RightArrow}
         onClick={() => nextImgCircular()}
       />

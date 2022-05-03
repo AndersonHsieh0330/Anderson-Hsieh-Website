@@ -1,9 +1,7 @@
 import "./AboutMe.css";
-import { Fade } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
 import PhotoGallery from "../../components/PhotoGallery/PhotoGallery.js";
-import PhotoLinkedList from "../../components/PhotoLinkedList/PhotoLinkedList.js";
-import PhotoNode from "../../components/PhotoLinkedList/PhotoNode.js";
+
+// photo path imports. React converts file path to static address, thus we gotta import it here instead of putting it directly in the array
 import ShrimpCatch from "../../assets/aboutmephotos/shrimpcatch.jpg";
 import WithKids from "../../assets/aboutmephotos/withkids.jpg";
 import MarketWithMom from "../../assets/aboutmephotos/marketwithmom.jpg";
@@ -23,6 +21,7 @@ const myImages = [
     imgDescriptionEng:
       "I love catching little shrimp and fishes in rivers streams ever since I was little, give me a water bottle and we're eating good tonight!",
     imgDescriptionMan: "超喜歡在溪裡面抓小魚小蝦, 給我一個寶特瓶今晚加菜!",
+    isVideo: false,
   },
   {
     imgPath: WithKids,
@@ -30,6 +29,7 @@ const myImages = [
       "My cute cousins, I've always like kids and fun fact I used volunteer at Chang Gung Memorial Hospital for takig care of children with illness.",
     imgDescriptionMan:
       "圖裡面是我可愛的堂弟們. 一直都很喜歡小孩子, 在台灣的時候暑假會去林口長庚做志工顧小孩呦.",
+    isVideo: false,
   },
   {
     imgPath: MarketWithMom,
@@ -38,6 +38,7 @@ const myImages = [
 
     imgDescriptionMan:
       "阿伯套裝跟媽媽上市場, 超喜歡去因為都可以偷渡好吃的跟或涼的回家, 還可以決定晚餐吃什麼~. 仙草布丁、結冰洛神花茶、切好一盤100的雞肉...不行了",
+    isVideo: false,
   },
   {
     imgPath: TruckDriving,
@@ -47,6 +48,7 @@ const myImages = [
 
     imgDescriptionMan:
       "阿公的大和農場就在車城鄉已經停飛的恆春機場後面. 如果你在屏東有買洋蔥, 有機會那就是我們家的~ 回去的時候很喜歡跟阿公一起去送洋蔥, 開著三噸半在恆春到處跑, 當然也要學著開啦!",
+    isVideo: false,
   },
   {
     imgPath: CookieAndBeer,
@@ -56,6 +58,7 @@ const myImages = [
 
     imgDescriptionMan:
       '邊烤餅乾邊"採罐", 哈哈 不小心烤焦了>_< 第一份實習在巴可的時候我偶爾會烤餅乾給大家吃, 沒有烤焦的時候大受好評哦!',
+    isVideo: false,
   },
   {
     imgPath: Guitar,
@@ -65,6 +68,7 @@ const myImages = [
 
     imgDescriptionMan:
       "從大班開始學了七年的小提琴, 小時候的夢想是做音樂家哦~ 後來也因為興趣自學了吉他(謝謝雅琴阿姨買吉他給我).",
+    isVideo: false,
   },
   {
     imgPath: Biking,
@@ -72,6 +76,7 @@ const myImages = [
       "My dad absolutely loves biking, and it kinda has became a little father and sons activity. We also took 10 days to ride the bike around Taiwan back when I was in elementary school!",
     imgDescriptionMan:
       "爸爸超喜歡騎車. 以前覺得騎車很累, 但越長大越珍惜跟爸爸的父子時光, 所以偶爾會陪爸爸早上去騎個石門水庫或楊梅後山. 之前國小的時候還有騎車環島哦~",
+    isVideo: false,
   },
   {
     imgPath: StreetFood,
@@ -79,6 +84,7 @@ const myImages = [
     imgDescriptionEng: "Me grabbing some declicious street food in Taiwan",
 
     imgDescriptionMan: "這個在老梅綠石槽, 挖塞咧那個大腸包小腸辣的超好吃!",
+    isVideo: false,
   },
   {
     imgPath: Bingsu,
@@ -88,6 +94,7 @@ const myImages = [
 
     imgDescriptionMan:
       "大溪老街入口轉角的剉冰店, 他一邊賣豆干一邊賣剉冰, 超好吃!",
+    isVideo: false,
   },
   {
     imgPath: MomsDress,
@@ -96,6 +103,7 @@ const myImages = [
       "Borrowed my moms dress for 2021 Christmas party, I was hotter than all of the girls there.",
 
     imgDescriptionMan: "辣台妹",
+    isVideo: false,
   },
   {
     imgPath: Cat,
@@ -104,6 +112,7 @@ const myImages = [
 
     imgDescriptionMan:
       "1A 大一的時候讀書讀到很挫折, 爸爸帶我跟媽媽來侯硐, 超級開心,還是爸爸懂我. 這隻我兄弟, 那天遇到超多貓, 但我覺得他最肥最可愛.",
+    isVideo: false,
   },
   {
     imgPath: Speech,
@@ -112,6 +121,7 @@ const myImages = [
       "I was invited back to my junior high school to share my experience studying aboard!",
 
     imgDescriptionMan: "暑假時劉孟珠老師邀請我回石門國中分享出國留學經驗!",
+    isVideo: false,
   },
 ];
 
@@ -120,7 +130,7 @@ const AboutMe = () => {
     <div className="AboutMeContainer">
       <div className="ColumnCenterContainer">
         <div className="SideBySideContainer">
-          <PhotoGallery myImages={myImages} />
+          <PhotoGallery myImages={myImages} height="60vh" width="45vh" />
 
           <div id="TextContainer">
             <h1>About Me</h1>

@@ -1,0 +1,4 @@
+This component has the height of its parent, please have a wrapper div around it if you need to set size
+this is done so we can set relative position of the arrows to be in the middle while not messing with the overall size of the component
+if the overall size of the component changes as we have more lines of text in the descrption, when we need to center this component it will giggle up and down
+the arrows are set to 45% bias from the top of the outer most container

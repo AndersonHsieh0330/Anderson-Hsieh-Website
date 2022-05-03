@@ -20,6 +20,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
+  /* adjust the height to determine how much vertical basis
+    having a vertical size set the size of the photo frame won't change the bias no more  */
+  height: 85vh;
   background-color: rebeccapurple;
 }
 
