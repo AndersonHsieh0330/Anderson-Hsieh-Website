@@ -259,13 +259,23 @@ const fishPhotos = [
 
 const Fish = () => {
   return (
-    <div id="FishContainer">
-      <div id="PhotoWrapper">
+    <div className="FishContainer">
+      <div className="PhotoWrapper">
         <PhotoGallery
           myImages={fishPhotos}
           height={galleryHeight}
           width={galleryWidth}
         />
+      </div>
+      <div className="TextContainer">
+        <h1>My Fish Keeping Weekly Updates!</h1>
+        <h3>May 5th, 2022</h3>
+        <p>
+          I've had the water running in the 10 gallon tank since last Monday
+          when I first moved into my apartment. I was debating on buying and
+          adding bacteria starter(Top fin) but also seen things online saying
+          that they don't work well. So I decided to go for it
+        </p>
       </div>
     </div>
   );
