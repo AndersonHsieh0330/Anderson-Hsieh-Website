@@ -1,0 +1,92 @@
+#VolleyballContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fef8ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#VolleyballTextContainer {
+  text-align: left;
+  height: 40vh;
+  margin-bottom: 4vh;
+}
+
+#VolleyballTextContainer p {
+  text-indent: 3vw;
+  margin-bottom: 0;
+  font-size: 2vh;
+  line-height: 2em;
+}
+
+#VolleyballTextContainer h2 {
+  font-size: 3.5vh;
+}
+
+#VolleyballTextContainer h3 {
+  font-size: 2vh;
+}
+
+#LeftContentContainer {
+  margin-right: 3vw;
+  width: 448px;
+}
+
+.FourPhotoContainer {
+  /* position of this container must be relative or absolute for the child position aboslute to work */
+  position: relative;
+  margin-bottom: 10vh;
+  height: 75vh;
+  width: 75vh;
+  margin-left: 3vw;
+  background-color: white;
+  box-shadow: 1px 1px 3px #b5b5b5;
+}
+
+.LeftTopVerticalImg {
+  position: absolute;
+  height: 36vh;
+  width: 27vh;
+  left: 0;
+  top: 0;
+  margin: 23px;
+  box-shadow: 1px 1px 3px #b5b5b5;
+}
+
+.RightTopHorizontalImg {
+  position: absolute;
+  height: 27vh;
+  width: 36vh;
+  right: 0;
+  top: 0;
+  margin: 23px;
+  box-shadow: 1px 1px 3px #b5b5b5;
+}
+
+.LeftBottomHorizontalImg {
+  position: absolute;
+  height: 27vh;
+  width: 36vh;
+  bottom: 0;
+  left: 0;
+  margin: 23px;
+  box-shadow: 1px 1px 3px #b5b5b5;
+}
+
+.RightBottomVerticalImg {
+  position: absolute;
+  height: 36vh;
+  width: 27vh;
+  right: 0;
+  bottom: 0;
+  margin: 23px;
+  box-shadow: 1px 1px 3px #b5b5b5;
+}
+
+#Volleyball_Dividor_1 {
+  height: 2px;
+  width: 10vw;
+  background-color: #c99364;
+  display: inline-block;
+}

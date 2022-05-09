@@ -15,9 +15,10 @@
   border-radius: 10px;
 
   /* don't set right padding since it's already set in <li> */
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 3vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  box-shadow: 1px 1px 3px #b5b5b5;
 }
 
 ul {
@@ -35,12 +36,12 @@ ul {
 
 li {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 2.5vh;
 }
 
 .PixelImage {
   margin: 0%;
   display: block;
-  height: 5vh;
-  width: 5vh;
+  height: 4vh;
+  width: 4vh;
 }

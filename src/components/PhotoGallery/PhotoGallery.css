@@ -19,8 +19,17 @@
   margin-left: 15px;
   margin-right: 15px;
   font-size: 2vh;
-  box-shadow: 3px 3px 0px #595959;
+  box-shadow: 1px 1px 3px #b5b5b5;
 }
+
+.ImageContainer img {
+  box-shadow: 1px 1px 3px #b5b5b5;
+}
+
+.ImageContainer video {
+  box-shadow: 1px 1px 3px #b5b5b5;
+}
+
 #RightArrowPixelImage {
   /* override flex position inherited from parent */
   position: relative;

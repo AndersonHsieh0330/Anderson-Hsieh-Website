@@ -268,14 +268,18 @@ const Fish = () => {
         />
       </div>
       <div className="TextContainer">
-        <h1>My Fish Keeping Weekly Updates!</h1>
+        <h2>My Fish Keeping Weekly Updates!</h2>
         <h3>May 5th, 2022</h3>
         <p>
           I've had the water running in the 10 gallon tank since last Monday
-          when I first moved into my apartment. I was debating on buying and
-          adding bacteria starter(Top fin) but also seen things online saying
-          that they don't work well. So I decided to go for it
+          when I first moved into my apartment. This week on Monday I decided to
+          move the swordtails over to the big tank so they're not getting so
+          crowded with the Lampeye's in the 2.5 gallon. It worked well they were
+          active and eating the first couple of days, but one of them actually
+          started to lose color on Friday which is kind of weird. Still eating,
+          swimmig around and everything, will have to keep an eye on it.
         </p>
+        <div id="Fish_Dividor_1" />
       </div>
     </div>
   );

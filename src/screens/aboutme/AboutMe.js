@@ -173,6 +173,7 @@ const AboutMe = () => {
               很喜歡現在的生活, 偶爾還是有低潮有煩惱, 但我不會再猶豫了,
               因為這些都是我的一部分. 我會繼續前進!
             </p>
+            <div id="AboutME_Dividor_1" />
           </div>
         </div>
       </div>

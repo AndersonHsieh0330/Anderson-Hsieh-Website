@@ -6,12 +6,12 @@
   text-align: start;
   height: 100vh;
   width: 100vw;
+  background-color: #fff2f2;
 }
 
 .ColumnCenterContainer {
   display: inline-flex;
   flex-direction: column;
-  background-color: aqua;
   justify-content: center;
 }
 
@@ -23,7 +23,6 @@
   /* adjust the height to determine how much vertical basis
     having a vertical size set the size of the photo frame won't change the bias no more  */
   height: 85vh;
-  background-color: rebeccapurple;
 }
 
 #TextContainer {
@@ -36,5 +35,13 @@
 
 p {
   display: block;
+  line-height: 1.5em;
   text-align: start;
+}
+
+#AboutME_Dividor_1 {
+  height: 2px;
+  width: 15vw;
+  background-color: #ffc0c0;
+  display: inline-block;
 }
