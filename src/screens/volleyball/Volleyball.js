@@ -26,14 +26,12 @@ const Volleyball = () => {
         </div>
 
         <iframe
-          width="400"
-          height="230"
+          id="EmbedYoutube"
           src="https://www.youtube.com/embed/yk3u9NGW2l0"
           title="Anderson Hsieh Volleyball Clips"
-          frameborder="20"
+          frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
-          style={{ marginTop: "-75px" }}
         ></iframe>
       </div>
       <div className="FourPhotoContainer">

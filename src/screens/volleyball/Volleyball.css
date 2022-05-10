@@ -8,6 +8,15 @@
   align-items: center;
 }
 
+#EmbedYoutube {
+  width: 67vh;
+  height: 42vh;
+  margin-top: -16vh;
+  padding: 5px;
+  box-shadow: 1px 2px 3px #b5b5b5;
+  background-color: #c99364;
+}
+
 #VolleyballTextContainer {
   text-align: left;
   height: 40vh;
