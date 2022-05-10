@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-color: #fef8ec;
+  flex-direction: row;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,8 +30,9 @@
 }
 
 #LeftContentContainer {
-  margin-right: 3vw;
-  width: 448px;
+  text-align: right;
+  width: 50vw;
+  margin-right: 2vw;
 }
 
 .FourPhotoContainer {
@@ -39,7 +41,7 @@
   margin-bottom: 10vh;
   height: 75vh;
   width: 75vh;
-  margin-left: 3vw;
+  margin-left: 2vw;
   background-color: white;
   box-shadow: 1px 1px 3px #b5b5b5;
 }

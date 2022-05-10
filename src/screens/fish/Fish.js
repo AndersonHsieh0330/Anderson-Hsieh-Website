@@ -14,8 +14,8 @@ import tricolor_swordtail from "../../assets/fishphotos/tricolor_swordtail.jpg";
 import white_angel from "../../assets/fishphotos/white_angel.jpg";
 
 // aspect ratio as height:width -> 3:4
-const galleryHeight = "70vh";
-const galleryWidth = "100vh";
+const galleryHeight = "63vh";
+const galleryWidth = "90vh";
 
 const fishPhotos = [
   {
