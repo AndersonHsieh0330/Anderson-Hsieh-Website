@@ -1,0 +1,22 @@
+#OverLay {
+  position: "fixed";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #0000004d;
+  align-items: center;
+  z-index: 1000;
+}
+
+#Window {
+  width: 40vw;
+  height: 60vh;
+  pointer-events: none;
+  background-color: white;
+}
