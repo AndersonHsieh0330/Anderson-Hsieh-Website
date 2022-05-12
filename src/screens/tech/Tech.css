@@ -9,7 +9,14 @@
 }
 
 #leftProjectBoxesContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50vw;
+  height: 100vh;
 }
 
 #RightDescriptionContainer {
+  width: 50vw;
+  height: 100vh;
 }

@@ -4,21 +4,48 @@ import React, { useState } from "react";
 import Modal from "../../components/Modal/Modal.js";
 import { usePopper } from "react-popper";
 
+//Project Pop up imports
+import Bristle from "./projectpopup/Bristle/Bristle.js";
+import Wat2Eat from "./projectpopup/Wat2Eat/Wat2Eat.js";
+
 const Tech = () => {
-  const [isProjectBoxOpen, setOpenProjectBox] = useState(true);
-  const [referenceElement, setReferenceElement] = useState(null);
-  const [popperElement, setPopperElement] = useState(null);
-  const { styles, attributes } = usePopper(referenceElement, popperElement);
+  const [isProjectBoxOpen, setOpenProjectBox] = useState(false);
+
+  const [projectPopUpKey, setProjectPopUpKey] = useState("Bristle");
+  const projectPopUpContent = (projectPopUpKey) => {
+    switch (projectPopUpKey) {
+      case "Bristle":
+        return <Bristle />;
+      case "Wat2Eat":
+        return <Wat2Eat />;
+    }
+  };
 
   return (
-    <div id="TechContentContainer" ref={setReferenceElement}>
-      <ProjectBox imgPath="e" onClick={() => setOpenProjectBox(true)} />
+    <div id="TechContentContainer">
+      <div id="leftProjectBoxesContainer">
+        <ProjectBox
+          imgPath="e"
+          onClick={() => {
+            setOpenProjectBox(true);
+            setProjectPopUpKey("Bristle");
+          }}
+        />
+        <ProjectBox
+          imgPath="e"
+          onClick={() => {
+            setOpenProjectBox(true);
+            setProjectPopUpKey("Wat2Eat");
+          }}
+        />
+      </div>
+      <div id="RightDescriptionContainer"></div>
       <Modal
         isProjectBoxOpen={isProjectBoxOpen}
         onClose={() => setOpenProjectBox(false)}
-        modalContent={<></>}
-        ref={setPopperElement}
-      />
+      >
+        {projectPopUpContent(projectPopUpKey)}
+      </Modal>
     </div>
   );
 };
