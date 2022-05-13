@@ -5,18 +5,65 @@
   flex-direction: row;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #leftProjectBoxesContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   width: 50vw;
-  height: 100vh;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* don't set explicit height here so we can control the vertical gap between boxes */
 }
 
 #RightDescriptionContainer {
   width: 50vw;
   height: 100vh;
+  margin-right: 5vw;
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+#TechTextContainer {
+}
+#TechTextContainer {
+  height: 75vh;
+  text-align: right;
+}
+#TechTextContainer p {
+  text-indent: 3vw;
+  font-size: 2vh;
+  line-height: 2em;
+}
+
+#TechTextContainer h2 {
+  font-size: 3.5vh;
+}
+
+#TechTextContainer h3 {
+  font-size: 2vh;
+}
+
+#TechDividor_1 {
+  height: 2px;
+  width: 7vw;
+  background-color: #aab2c1;
+  display: inline-block;
+  margin-bottom: 5vh;
+}
+
+#TechItemContainer {
+  text-align: left;
+  margin-right: 5vw;
+}
+#TechItemContainer h3 {
+}
+#TechItemContainer p {
+  margin-bottom: 7vh;
+
+  /* direction: rtl; */
+  /* text-indent: 3vw; */
 }

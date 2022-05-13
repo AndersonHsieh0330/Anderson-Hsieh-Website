@@ -267,7 +267,7 @@ const Fish = () => {
           width={galleryWidth}
         />
       </div>
-      <div className="TextContainer">
+      <div className="FishTextContainer">
         <h2>My Fish Keeping Weekly Updates!</h2>
         <h3>May 5th, 2022</h3>
         <p>

@@ -17,3 +17,17 @@
   /* flex-grow make this div take up a height of 100vh - (32 + 5)px */
   flex-grow: 1;
 }
+
+/* this is used for every page writeup */
+.BasicTextContainer p {
+  font-size: 2vh;
+  line-height: 2em;
+}
+
+.BasicTextContainer h2 {
+  font-size: 3.5vh;
+}
+
+.BasicTextContainer h3 {
+  font-size: 2vh;
+}
