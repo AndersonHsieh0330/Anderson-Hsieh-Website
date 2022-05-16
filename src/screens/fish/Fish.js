@@ -26,6 +26,7 @@ const fishPhotos = [
           marginTop: "5px",
           marginBottom: "0px",
           fontSize: "1.5vh",
+          textIndent: "0",
           width: galleryWidth,
         }}
       >
@@ -43,6 +44,7 @@ const fishPhotos = [
           marginTop: "5px",
           marginBottom: "0px",
           fontSize: "1.5vh",
+          textIndent: "0",
           width: galleryWidth,
         }}
       >
@@ -62,6 +64,7 @@ const fishPhotos = [
           marginTop: "5px",
           marginBottom: "0px",
           fontSize: "1.5vh",
+          textIndent: "0",
           width: galleryWidth,
         }}
       >
@@ -78,6 +81,7 @@ const fishPhotos = [
           marginTop: "5px",
           marginBottom: "0px",
           fontSize: "1.5vh",
+          textIndent: "0",
           width: galleryWidth,
         }}
       >
@@ -95,6 +99,7 @@ const fishPhotos = [
           marginTop: "5px",
           marginBottom: "0px",
           fontSize: "1.5vh",
+          textIndent: "0",
           width: galleryWidth,
         }}
       >
@@ -114,6 +119,7 @@ const fishPhotos = [
           marginTop: "5px",
           marginBottom: "0px",
           fontSize: "1.5vh",
+          textIndent: "0",
           width: galleryWidth,
         }}
       >
@@ -132,6 +138,7 @@ const fishPhotos = [
           marginTop: "5px",
           marginBottom: "0px",
           fontSize: "1.5vh",
+          textIndent: "0",
           width: galleryWidth,
         }}
       >
@@ -148,6 +155,7 @@ const fishPhotos = [
           marginTop: "5px",
           marginBottom: "0px",
           fontSize: "1.5vh",
+          textIndent: "0",
           width: galleryWidth,
         }}
       >
@@ -162,14 +170,30 @@ const fishPhotos = [
   {
     imgPath: half_beak,
     imgDescriptionEng: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         <span style={{ fontWeight: "bold" }}>Wrestling Halfbeaks</span> are
         definitely one of my favorites. Haven't had too much success with them
         tho since they are BIG jumper and is semi aggressive.
       </p>
     ),
     imgDescriptionMan: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         <span style={{ fontWeight: "bold" }}>銀水針</span>
         算是我一直沒有養成功的魚. 長的很特別我超喜歡, 但是真的很會跳.
         其中一次傻傻的跟神仙魚養再一起, 被咬到受傷, 我趕快把他隔離起來下鹽巴.
@@ -181,7 +205,15 @@ const fishPhotos = [
   {
     imgPath: hillstream_loachs,
     imgDescriptionEng: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         Took me a long time to find this baby! He/she's a{" "}
         <span style={{ fontWeight: "bold" }}>hillstream loach</span>! My
         favorite bottom layer algae eater because it literally looks like a mini
@@ -190,7 +222,15 @@ const fishPhotos = [
       </p>
     ),
     imgDescriptionMan: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         可愛的滿天星<span style={{ fontWeight: "bold" }}>爬鰍</span>,
         根本就是迷你魟魚, 我最喜歡的底層魚!
       </p>
@@ -200,7 +240,15 @@ const fishPhotos = [
   {
     imgPath: shrimp,
     imgDescriptionEng: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         These are{" "}
         <span style={{ fontWeight: "bold" }}>neocaridina shrimps</span>! The
         lady at the store got me a pregant female and it gave birth within a
@@ -208,7 +256,15 @@ const fishPhotos = [
       </p>
     ),
     imgDescriptionMan: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         彩色<span style={{ fontWeight: "bold" }}>米蝦</span>,
         超幸運魚中魚店員幫我撈的時候撈到一隻懷孕的母蝦,
         我跟我女朋友走出店裡興奮到不行. 到家過一兩天就生了一堆小蝦!
@@ -219,7 +275,15 @@ const fishPhotos = [
   {
     imgPath: tricolor_swordtail,
     imgDescriptionEng: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         These are the{" "}
         <span style={{ fontWeight: "bold" }}>tricolor swordtails</span> I have
         right now. All of them are females and I'm looking a male one with the
@@ -229,7 +293,15 @@ const fishPhotos = [
       </p>
     ),
     imgDescriptionMan: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         三隻母的<span style={{ fontWeight: "bold" }}>三色劍尾魚</span>,
         看起來就像小鯉魚
       </p>
@@ -239,7 +311,15 @@ const fishPhotos = [
   {
     imgPath: ricefish_babies,
     imgDescriptionEng: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         Too bad I couldn't raise these{" "}
         <span style={{ fontWeight: "bold" }}>rice fish babies</span> myself cuz
         I gotta come back to Canada. I end up gifting them together with their
@@ -248,7 +328,15 @@ const fishPhotos = [
       </p>
     ),
     imgDescriptionMan: (
-      <p>
+      <p
+        style={{
+          marginTop: "5px",
+          marginBottom: "0px",
+          fontSize: "1.5vh",
+          textIndent: "0",
+          width: galleryWidth,
+        }}
+      >
         在板橋的稻田魚們生地的小寶包! 可惜要離開台灣要回來加拿大讀書了,
         沒辦法親手把他們帶大, 不然他時候真的孵出來超多隻! 每天都在收蛋
       </p>

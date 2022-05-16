@@ -43,22 +43,24 @@ const BottomMenu = (props) => {
             src={props.myImages[imgIndex].imgPath}
           />
         )}
-        <p
+        <div
           className="ImgDescription"
           style={{
             marginTop: "5px",
             marginBottom: "0px",
             fontSize: "1.5vh",
+            textIndent: "0",
             width: props.width,
           }}
         >
           {props.myImages[imgIndex].imgDescriptionEng}
-        </p>
+        </div>
         <p
           className="ImgDescription"
           style={{
             marginTop: "5px",
             marginBottom: "0px",
+            textIndent: "0",
             fontSize: "1.5vh",
             width: props.width,
           }}

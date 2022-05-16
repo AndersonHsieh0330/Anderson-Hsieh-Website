@@ -140,19 +140,6 @@ const AboutMe = () => {
               Outside of school and careers I have a lot of other identities,
               keep exploring you’ll see.
             </p>
-            <p>
-              Through experiences from school, internships and design teams I
-              have developed knowledge in various technical fields such as
-              Android App dev, backend API dev, low level firmware dev and more.
-            </p>
-            <p>
-              I’m on my way of becoming a well-rounded software engineer who is
-              capable of constructing all aspects of a system, from front end,
-              backend and even to the hardware level. All this grind will
-              prepare myself with the technical foundations that I need to pitch
-              my start up.
-            </p>
-
             <h2>Every photo tells a story</h2>
             <p>
               I rarely delete photos in my camera roll, even if they seem random
@@ -163,15 +150,9 @@ const AboutMe = () => {
 
             <h2>序章</h2>
             <p>
-              桃園人, 國三來到加拿大讀書(Victoria, BC), 並且 「加拿大是健身房,
-              台灣是家」 一直住在桃園的我從國中三年級開始到加拿大讀書,
-              花了我很多時間適應, 也很羨慕在台灣多采多姿的學生生活.
-              曾經迷惘不知道我是台灣人, 還是個想成為加拿大人的四不像。2019
-              COVID疫情來襲, 轉而給了我機會在台灣常住一年多的機會,
-              讓我重新認識了這片土地, 且更懂得珍惜. 現在我常說回到了這健身房,
-              在專業技能上把自己往前推. 同學們各個都身懷絕技, 促使著我跟著進步.
-              很喜歡現在的生活, 偶爾還是有低潮有煩惱, 但我不會再猶豫了,
-              因為這些都是我的一部分. 我會繼續前進!
+              「加拿大是健身房, 台灣是家」
+              <br />
+              桃園人, 國三來到加拿大讀書(Victoria, BC). 我喜歡台灣的
             </p>
             <div id="AboutME_Dividor_1" />
           </div>

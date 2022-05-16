@@ -1,0 +1,13 @@
+#ResumeContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f3efff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#DownloadResumeBTN {
+  /* hardcode the size of the button because when I don't want the button size to shrink when the download bar at the bottom shows up */
+  height: 150px;
+}

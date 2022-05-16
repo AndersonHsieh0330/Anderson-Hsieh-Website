@@ -1,12 +1,10 @@
-import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import AboutPage from "./screens/aboutme/AboutMe.js";
 import FishPage from "./screens/fish/Fish.js";
 import VolleyballPage from "./screens/volleyball/Volleyball.js";
 import TechPage from "./screens/tech/Tech.js";
 import ResumePage from "./screens/resume/Resume.js";
-import ContactPage from "./screens/contact/Contact.js";
+import ContactPage from "./screens/contact/Contacts.js";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -24,7 +22,7 @@ const App = () => {
             <Route path="/volleyball" element={<VolleyballPage />} />
             <Route path="/tech" element={<TechPage />} />
             <Route path="/resume" element={<ResumePage />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/contacts" element={<ContactPage />} />
           </Routes>
         </div>
         <BottomMenu />

@@ -1,0 +1,40 @@
+#ContactsContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fffdf2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#CopiedMessage {
+  position: absolute;
+  z-index: 5;
+  font-size: 2.5vh;
+  margin-bottom: 20px;
+  bottom: 0%;
+  left: 46%;
+}
+#ContactsList {
+}
+#ContactsList li {
+  display: block;
+}
+
+.ContactsItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ContactsItem img {
+  cursor: pointer;
+  height: 5vh;
+  width: 5vh;
+}
+
+.ContactsItem p {
+  font-size: 2.5vh;
+  display: inline;
+  text-align: left;
+}

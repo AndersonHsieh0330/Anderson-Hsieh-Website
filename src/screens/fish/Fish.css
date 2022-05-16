@@ -5,7 +5,7 @@
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-color: #edf4ff;
+  background-color: #f4f8ff;
 }
 
 .PhotoWrapper {
@@ -21,17 +21,6 @@
   text-align: right;
 }
 .FishTextContainer p {
-  text-indent: 3vw;
-  font-size: 2vh;
-  line-height: 2em;
-}
-
-.FishTextContainer h2 {
-  font-size: 3.5vh;
-}
-
-.FishTextContainer h3 {
-  font-size: 2vh;
 }
 
 #Fish_Dividor_1 {

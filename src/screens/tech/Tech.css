@@ -34,17 +34,6 @@
   text-align: right;
 }
 #TechTextContainer p {
-  text-indent: 3vw;
-  font-size: 2vh;
-  line-height: 2em;
-}
-
-#TechTextContainer h2 {
-  font-size: 3.5vh;
-}
-
-#TechTextContainer h3 {
-  font-size: 2vh;
 }
 
 #TechDividor_1 {
@@ -59,11 +48,7 @@
   text-align: left;
   margin-right: 5vw;
 }
-#TechItemContainer h3 {
-}
+
 #TechItemContainer p {
   margin-bottom: 7vh;
-
-  /* direction: rtl; */
-  /* text-indent: 3vw; */
 }

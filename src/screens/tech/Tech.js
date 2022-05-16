@@ -92,17 +92,20 @@ const Tech = () => {
       </div>
       <div id="RightDescriptionContainer">
         <div id="TechTextContainer">
-          <h2>My Fish Keeping Weekly Updates!</h2>
+          <h2>Tech</h2>
           <p>
-            I've had the water running in the 10 gallon tank since last Monday
-            when I first moved into my apartment. This week on Monday I decided
-            to move the swordtails over to the big tank so they're not getting
-            so crowded with the Lampeye's in the 2.5 gallon. It worked well they
-            were active and eating the first couple of days, but one of them
-            actually started to lose color on Friday which is kind of weird.
-            Still eating, swimmig around and everything, will have to keep an
-            eye on it.
+            Technology is where I accelerate professionally. I’m on my way of
+            becoming a well-rounded software engineer who is capable of
+            constructing all aspects of a system, from frontend, backend and
+            even to the hardware level. Personal projects, school, design teams,
+            and internships allowed me to gain experience in different tech
+            stacks. All this will prepare myself with the technical foundations
+            that I need to pitch my start up.
+            <br />
+            <br />
+            Here are some of my projects that I'd like to share with you, enjoy.
           </p>
+          <p></p>
           <div id="TechDividor_1" />
           <div id="TechItemContainer">
             <h3>Languages</h3>

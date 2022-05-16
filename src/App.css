@@ -19,15 +19,16 @@
 }
 
 /* this is used for every page writeup */
-.BasicTextContainer p {
+.App p {
+  text-indent: 3vw;
   font-size: 2vh;
   line-height: 2em;
 }
 
-.BasicTextContainer h2 {
+.App h2 {
   font-size: 3.5vh;
 }
 
-.BasicTextContainer h3 {
+.App h3 {
   font-size: 2vh;
 }
