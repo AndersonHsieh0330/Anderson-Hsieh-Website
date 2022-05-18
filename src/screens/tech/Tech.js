@@ -111,7 +111,7 @@ const Tech = () => {
             <h3>Languages</h3>
             <p>Java, Kotlin, C++, Javascript, HTML, CSS</p>
             <h3>Framework/Tool</h3>
-            <p>Android, React.js, React Native, Docker, Git</p>
+            <p>Android, Spring, React.js, React Native, Docker, Git</p>
           </div>
         </div>
       </div>

@@ -134,25 +134,27 @@ const AboutMe = () => {
 
           <div id="TextContainer">
             <h1>About Me</h1>
-            <p>
-              Originally from Taiwan, I’m a current Computer Engineering student
-              at University of Waterloo, with focus in software development.
-              Outside of school and careers I have a lot of other identities,
-              keep exploring you’ll see.
-            </p>
-            <h2>Every photo tells a story</h2>
-            <p>
-              I rarely delete photos in my camera roll, even if they seem random
-              because every photo reminds me of a memory with an emotion and can
-              not be reproduced. This is where I share some of my favorites with
-              you, enjoy.
+            <p style={{ marginBottom: "6vh" }}>
+              Anderson Hsieh (謝衡鞍), Taiwanese, Computer Engineering Student
+              at University of Waterloo.
+              <br />
+              Every photo tells a story, and I think you'll know me a lot better
+              through those stories. Each photo reminds me of a place, an
+              emotion, and a group of people. <br />
+              <br />
+              This is where I share some of my favorites moments with you,
+              enjoy.
             </p>
 
             <h2>序章</h2>
             <p>
-              「加拿大是健身房, 台灣是家」
+              桃園人, 國三來到加拿大讀書, 現在在位於加拿大 Ontario
+              的滑鐵盧大學讀電腦工程. 我常說:「加拿大是健身房,
+              台灣是家」那裏是我覺得最舒服, 充滿人情味, 且讓我最有自信的地方,
+              但這裡的環境讓我得以在專業技能上精進. <br />
               <br />
-              桃園人, 國三來到加拿大讀書(Victoria, BC). 我喜歡台灣的
+              20歲, 我會繼續做我該做的事情. 希望你也能體會到照片裡我的心情,
+              很高興認識你!
             </p>
             <div id="AboutME_Dividor_1" />
           </div>

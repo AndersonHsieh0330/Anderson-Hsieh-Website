@@ -33,15 +33,14 @@
   padding-left: 60px;
 }
 
-p {
+#TextContainer p {
   display: block;
-  line-height: 1.5em;
   text-align: start;
 }
 
 #AboutME_Dividor_1 {
   height: 2px;
-  width: 15vw;
+  width: 10vw;
   background-color: #ffc0c0;
   display: inline-block;
 }

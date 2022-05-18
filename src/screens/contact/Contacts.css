@@ -7,6 +7,18 @@
   justify-content: center;
   align-items: center;
 }
+
+#ContactsLeftContainer {
+  margin-right: 5vw;
+  margin-left: 10vw;
+  text-align: left;
+  /* use this to adjust the vertical offset */
+  margin-bottom: 10vh;
+}
+
+#ContactsLeftContainer p {
+  margin-bottom: 0;
+}
 #CopiedMessage {
   position: absolute;
   z-index: 5;
@@ -16,6 +28,8 @@
   left: 46%;
 }
 #ContactsList {
+  margin-left: 5vw;
+  margin-right: 10vw;
 }
 #ContactsList li {
   display: block;
@@ -34,7 +48,14 @@
 }
 
 .ContactsItem p {
-  font-size: 2.5vh;
-  display: inline;
+  font-size: 2.3vh;
+  white-space: nowrap;
   text-align: left;
+}
+
+#Contacts_Dividor_1 {
+  height: 2px;
+  width: 8vw;
+  background-color: #e5956e;
+  display: inline-block;
 }
