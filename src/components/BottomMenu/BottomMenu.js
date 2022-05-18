@@ -38,7 +38,7 @@ const BottomMenu = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="/contacts">
+          <NavLink to="/Anderson-Hsieh-Website/contacts">
             <img className="PixelImage" src={PhoneLogo} />
           </NavLink>
         </li>
