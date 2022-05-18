@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-
+  text-align: start;
   /* must define a height for the container so the relative position of arrows work */
   height: 100%;
 }

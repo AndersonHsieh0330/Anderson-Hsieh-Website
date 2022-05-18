@@ -51,6 +51,7 @@ const BottomMenu = (props) => {
             fontSize: "1.5vh",
             textIndent: "0",
             width: props.width,
+            lineHeight: "2em",
           }}
         >
           {props.myImages[imgIndex].imgDescriptionEng}
@@ -63,6 +64,7 @@ const BottomMenu = (props) => {
             textIndent: "0",
             fontSize: "1.5vh",
             width: props.width,
+            lineHeight: "2em",
           }}
         >
           {props.myImages[imgIndex].imgDescriptionMan}
