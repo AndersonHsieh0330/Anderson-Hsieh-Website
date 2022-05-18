@@ -13,27 +13,27 @@ const BottomMenu = () => {
     <div className="BottomMenuContainer">
       <ul className="MenuList">
         <li>
-          <NavLink to="/">
+          <NavLink to="/Anderson-Hsieh-Website/">
             <img className="PixelImage" src={HeartLogo} />
           </NavLink>
         </li>
         <li>
-          <NavLink to="/fish">
+          <NavLink to="/Anderson-Hsieh-Website/fish">
             <img className="PixelImage" src={FishLogo} />
           </NavLink>
         </li>
         <li>
-          <NavLink to="/volleyball">
+          <NavLink to="/Anderson-Hsieh-Website/volleyball">
             <img className="PixelImage" src={VolleyballLogo} />
           </NavLink>
         </li>
         <li>
-          <NavLink to="/tech">
+          <NavLink to="/Anderson-Hsieh-Website/tech">
             <img className="PixelImage" src={CodeLogo} />
           </NavLink>
         </li>
         <li>
-          <NavLink to="/resume">
+          <NavLink to="/Anderson-Hsieh-Website/resume">
             <img className="PixelImage" src={ScrollLogo} />
           </NavLink>
         </li>
