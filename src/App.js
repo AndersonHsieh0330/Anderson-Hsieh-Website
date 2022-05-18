@@ -17,12 +17,21 @@ const App = () => {
         <div id="ContentContainer">
           <Routes>
             {/* these page elements must have a margin-bottom of 32px since BottomMenu has a height of 32px*/}
-            <Route path="/" element={<AboutPage />} />
-            <Route path="/fish" element={<FishPage />} />
-            <Route path="/volleyball" element={<VolleyballPage />} />
-            <Route path="/tech" element={<TechPage />} />
-            <Route path="/resume" element={<ResumePage />} />
-            <Route path="/contacts" element={<ContactPage />} />
+            <Route path="/Anderson-Hsieh-Website/" element={<AboutPage />} />
+            <Route path="/Anderson-Hsieh-Website/fish" element={<FishPage />} />
+            <Route
+              path="/Anderson-Hsieh-Website/volleyball"
+              element={<VolleyballPage />}
+            />
+            <Route path="/Anderson-Hsieh-Website/tech" element={<TechPage />} />
+            <Route
+              path="/Anderson-Hsieh-Website/resume"
+              element={<ResumePage />}
+            />
+            <Route
+              path="/Anderson-Hsieh-Website/contacts"
+              element={<ContactPage />}
+            />
           </Routes>
         </div>
         <BottomMenu />
