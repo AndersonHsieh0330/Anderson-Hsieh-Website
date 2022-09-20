@@ -11,7 +11,7 @@ import { useState } from "react";
 
 const LinkedinProfileLink =
   "https://www.linkedin.com/in/anderson-hsieh-6003a41ba/";
-const IGProfileLink = "https://www.instagram.com/anderson_hsieh0330/";
+const IGProfileLink = "https://www.instagram.com/anderson_hsieh_/";
 const GithubProfilLink = "https://github.com/AndersonHsieh0330";
 
 const Contacts = () => {
@@ -55,7 +55,7 @@ const Contacts = () => {
             <a href={IGProfileLink} target="_blank" download>
               <img src={IGLogo} />
             </a>
-            <p>instagram.com/anderson_hsieh0330</p>
+            <p>instagram.com/anderson_hsieh_</p>
           </div>
         </li>
         <li>
